@@ -1,0 +1,28 @@
+================================================================================
+BASIC PARSER IN GO
+================================================================================
+
+A very simplistic basic language parser written in go for training purposes:
+
+Files / Folder structure:
+
+main.go - Program entry
+interpreter/ - Module that houses our lexer and parsing tools.
+            lexer.go  - analysis source code to derive tokens.
+            parser.go  - reads the above tokens and generates the program output.
+
+
+=================================================================================
+REQUIREMENTS
+=================================================================================
+
+1. Golang installed - version 1.6 or higer
+2. Visual Studio Code with go linter by lukehoban
+
+
+=================================================================================
+RUNNING THE PROGRAM 
+=================================================================================
+1. git clone git@github.com:kevinpropdata/gotraining.git
+2. cd gotraining/
+3. go run main.go
