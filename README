@@ -9,6 +9,7 @@ Files / Folder structure:
 main.go - Program entry
 interpreter/ - Module that houses our lexer and parsing tools.
             lexer.go  - analysis source code to derive tokens.
+            lexer_test.go - unit test for the lexer above.
             parser.go  - reads the above tokens and generates the program output.
 
 
